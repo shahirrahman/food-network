@@ -1,0 +1,75 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* Top bar starts here */
+a{
+    text-decoration: none;
+    color: black;
+}
+.top-bar{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.top-bar{
+    border-bottom: 1px solid black;
+}
+.top-text{
+    margin: 11px 25px;
+}
+.top-button{
+    margin-left: 5px;
+}
+
+/* Section1 starts */
+h1,a{
+    color:rgb(71, 69, 69);
+}
+.header1{
+    font-size: 40px;
+}
+.orange{
+    color: rgb(245, 84, 21);
+}
+.half-width{
+    width: 50%;
+}
+.section1{
+    display: flex;
+    padding: 70px;
+}
+.img-head1{
+    display: block;
+    width: 500px;
+    margin-left: auto;
+}
+.header1{
+    margin-top: 180px;
+}
+/* Design for all Buttons */
+button{
+    background-image: linear-gradient(90deg,rgb(231,50,2), rgb(233, 154, 64));
+    border: none;
+    padding: 9px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    color: white;
+} 
+/* Section2 starts */
+.section2{
+    display: flex;
+}
+.text-header2{
+    width:35%;
+}
+.header2{
+    font-size: 27px;
+}
