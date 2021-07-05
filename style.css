@@ -19,7 +19,7 @@ a{
     align-items: center;
 }
 .top-bar{
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(71, 69, 69);
 }
 .top-text{
     margin: 11px 25px;
@@ -46,11 +46,11 @@ h1,a{
 }
 .section1{
     display: flex;
-    padding: 70px;
+    padding: 70px 60px 70px 70px;
 }
 .img-head1{
     display: block;
-    width: 500px;
+    width: 550px;
     margin-left: auto;
 }
 .header1{
@@ -65,7 +65,9 @@ button{
     border-radius: 50px;
     color: white;
 } 
+
 /* Section2 starts */
+
 .section2{
     margin-top: 110px;
     display: flex;
@@ -75,6 +77,10 @@ button{
     background-size: cover;
     height: 470px;
 }
+.section2 p{
+    text-align: center;
+}
+
 .text-header2{
     width:35%;
 }
@@ -88,8 +94,13 @@ button{
     margin-top: auto;
 }
 .img-head2{
-    height: 340px;
+    height: 367px;
     margin-right: 30px;
+}
+.button-section2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 /* section3 starts */
 .section3{
@@ -102,7 +113,7 @@ button{
     justify-content: center;  
 }
 .box{
-    box-shadow: 0px 0px 20px 5px rgba(100,99,107,0.49);
+    box-shadow: 0px 0px 20px 5px rgba(100,99,107,0.30);
     margin:0px 30px;
     padding: 25px;
     border-radius: 15px;
@@ -132,10 +143,41 @@ button{
 .all-texts-section4{
     display: flex;
     justify-content: center;
-    box-shadow: 0px 0px 20px 5px rgba(100,99,107,0.49);
+    box-shadow: 0px 0px 20px 5px rgba(100,99,107,0.30);
     width: 1000px;
     border-radius: 15px;
 }
 .text-section4{
     margin:0px 80px;
+}
+
+/* Section 5 Starts here */
+
+.section5{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.section5 h3{
+    text-align: center;
+    color: rgb(71, 69, 69);
+}
+.inp-quiery{
+    width:550px;
+    height: 100px;
+    border-radius: 15px;
+    border: 1px dashed black;
+    box-shadow: 0px 0px 20px 5px rgba(100,99,107,0.30);
+}
+
+/* footer starts */
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    background-color: black;
+    width:100%;
+    height: 200px;
+    display: block;
+    padding-top: 30px;
 }
