@@ -5,6 +5,10 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+html{
+    display: flex;
+    width: 100%;
+}
 /* Top bar starts here */
 a{
     text-decoration: none;
