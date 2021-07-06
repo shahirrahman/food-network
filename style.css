@@ -74,7 +74,7 @@ button{
 /* Section2 starts */
 
 .section2{
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     align-items: center;
     background-image: url(food-network-main/images/usable/frame.jpg);
@@ -167,7 +167,7 @@ button{
     font-size: 29px;
     text-align: center;
     margin-top: 110px;
-
+    color: rgb(71, 69, 69);
 }
 .stars{
     color: orange;
@@ -189,10 +189,11 @@ button{
 }
 .section-added h1{
     margin-bottom: 0px;
+    color: black;
 }
 .border-right{
     border-right: 2.5px solid;
-    border-image: linear-gradient(180deg,rgb(19, 95, 209), rgb(75, 84, 85));
+    border-image: linear-gradient(180deg,rgba(36, 40, 41, 0.26),rgb(37, 39, 43), rgba(36, 40, 41, 0.26));
     border-image-slice: 1;
 }
 
