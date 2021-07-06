@@ -17,6 +17,7 @@ a{
     text-align: center;
     justify-content: center;
     align-items: center;
+    height: 75px;
 }
 .top-bar{
     box-shadow: 0px 3px 36px -12px rgba(0,0,0,0.35);
@@ -54,7 +55,11 @@ h1,a{
     margin-left: auto;
 }
 .header1{
-    margin-top: 180px;
+    margin-top: 140px;
+}
+.section1-button{
+    display: block;
+    margin-top: 35px;
 }
 /* Design for all Buttons */
 button{
@@ -69,7 +74,7 @@ button{
 /* Section2 starts */
 
 .section2{
-    margin-top: 110px;
+    margin-top: 100px;
     display: flex;
     align-items: center;
     background-image: url(food-network-main/images/usable/frame.jpg);
@@ -135,7 +140,7 @@ button{
 /* Section 4 starts here */
 
 .section4{
-    margin-top: 120px;
+    margin-top: 140px;
     display: flex;
     justify-content: center;
 }
@@ -148,6 +153,51 @@ button{
 }
 .text-section4{
     margin:0px 80px;
+
+}
+
+
+/* Section-added starts */
+
+.section-added{
+    display: flex;
+    justify-content: center;
+}
+.testimony-h2{
+    font-size: 29px;
+    text-align: center;
+    margin-top: 110px;
+
+}
+.stars{
+    color: orange;
+    margin-top: 10px ;
+}
+.section-added-reviews{
+    display: flex;
+
+    box-shadow: 0px 0px 20px 5px rgba(100,99,107,0.30);
+    border-radius: 15px;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.card-testimony{
+    width: 240px;
+    margin: 29px 0px;
+    padding: 10px 25px 10px 25px;
+}
+.section-added h1{
+    margin-bottom: 0px;
+}
+.border-right{
+    border-right: 2.5px solid;
+    border-image: linear-gradient(180deg,rgb(19, 95, 209), rgb(75, 84, 85));
+    border-image-slice: 1;
+}
+
+.section-added *{
+    text-align: center;
 }
 
 /* Section 5 Starts here */
@@ -155,7 +205,7 @@ button{
 .section5{
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 .section5 h3{
     text-align: center;
